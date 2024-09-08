@@ -1,0 +1,12 @@
+The converter requires at least the following packages:
+- spatialdata
+- pandas
+- numpy
+- matplotlib
+- h5py
+- ssam  
+- loompy
+- sklearn
+- scipy
+- skimage
+- scanpy
