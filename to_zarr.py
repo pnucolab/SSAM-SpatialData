@@ -7,7 +7,7 @@ import spatialdata as sd
 import anndata as ad
 import dask.dataframe as dd
 
-##SSAM should be runned by 'to_zarr_with_plots'.ipynb
+##Before run this file, SSAM should be runned by to_zarr_with_plots.ipynb
 ds = ssam.SSAMDataset("data/processed/ssamdataset-osmFISH.zarr")
 analysis = ssam.SSAMAnalysis(ds, ncores=40, verbose=True)
 
